@@ -1,13 +1,13 @@
 Feature: The application should be running
 
-  @test2
+  @smoke
   Scenario: simple search
     Given I am on the home page
     When I search for "glass teapot"
     Then I should see the results
 
 
-
+  @regression
   Scenario: another search
     Given I am on the home page
     When I search for "useless box"
